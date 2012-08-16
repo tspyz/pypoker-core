@@ -1,7 +1,9 @@
-pypoker-core is a basic set of python routines that implement card decks and poker hands.
+pypoker-core is a basic set of python routines that implement card
+decks and poker hands.
 
-Decks contain Cards, which can be used to create Hands.  PokerHands can be evaluated to string
-names, and can also be evaluated to canonical values, which are integers constructed so that 
-for any two hands, if one hand has a higher canonical value than the other, that hand wins
-in the conventional poker ranking.  If the two hands tie, the canonical values will be 
-equivalent.
+Decks contain Cards, which can be used to create Hands.  PokerHands
+can be evaluated to string names, and can also be evaluated to
+canonical values, which are integers constructed so that for any two
+hands, if one hand has a higher canonical value than the other, that
+hand wins in the conventional poker ranking.  If the two hands tie,
+the canonical values will be equivalent.
